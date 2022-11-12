@@ -1,6 +1,6 @@
 * {
     background: fixed;
-    background-image: -moz-radial-gradient(navy,black);
+    background-image: navy;
 }
 nav ul{
     list-style-type: none;
