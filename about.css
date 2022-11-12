@@ -1,6 +1,6 @@
 * {
     background: fixed;
-    background-image: -moz-radial-gradient(navy,black);
+    background-color: #02012e;
 }
 
 nav ul{
@@ -18,4 +18,25 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
+}
+
+.about{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.about p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.techskills{
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
