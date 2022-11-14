@@ -3,6 +3,7 @@
     background-color: #02012e;
 }
 
+
 nav ul{
     list-style-type: none;
     float: right;
@@ -33,8 +34,24 @@ nav ul li a{
     padding-right: 10%;
 }
 
-.techskills{
-    padding-top: 60px;
+.softskills{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.programming{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.language{
+    padding-top: 40px;
     text-align: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
