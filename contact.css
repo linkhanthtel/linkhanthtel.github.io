@@ -31,6 +31,7 @@ button{
     color: white;
     padding: 15px;
     font-size: large;
+    font-family: 'Times New Roman', Times, serif;
     border-radius: 50px;
     border: 0;
 }
@@ -38,5 +39,6 @@ button{
 button:hover{
     background-color: yellow;
     color: #02012e;
+    font-family: 'Times New Roman', Times, serif;
 }
 
