@@ -34,6 +34,26 @@ nav ul li a{
     padding-right: 10%;
 }
 
+.design{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.design a{
+    color: green;
+}
+
+.education{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
 .softskills{
     padding-top: 40px;
     text-align: center;
@@ -52,8 +72,9 @@ nav ul li a{
 
 .language{
     padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
