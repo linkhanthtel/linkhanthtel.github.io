@@ -19,6 +19,9 @@ nav ul li a{
     color: white;
 }
 
+nav ul li a:hover{
+    color: green;
+
 .title{
     padding-top: 100px;
     text-align: center;
