@@ -21,6 +21,10 @@ nav ul li a{
     color: white;
 }
 
+nav ul li a:hover{
+    color: green;
+}
+
 .about{
     padding-top: 100px;
     text-align: center;
@@ -43,6 +47,23 @@ nav ul li a{
 }
 
 .design a{
+    color: green;
+}
+
+.researchpaper{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.researchpaper p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.researchpaper a{
     color: green;
 }
 
