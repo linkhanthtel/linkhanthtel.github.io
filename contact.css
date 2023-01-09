@@ -20,6 +20,9 @@ nav ul li a{
     color: white;
 }
 
+nav ul li a:hover{
+    color: green;
+
 #contactinfo{
     color: white;
     padding-top: 100px;
