@@ -19,6 +19,10 @@ nav ul li a{
     color: white;
 }
 
+nav ul li a:hover{
+    color:green;
+}
+
 .welcomepage{
     padding-top: 200px;
     text-align: center;
