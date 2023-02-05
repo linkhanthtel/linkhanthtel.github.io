@@ -1,5 +1,5 @@
 * {
-    background: fixed;
+    background: scroll;
     background-color: #02012e;
 }
 nav ul{
@@ -20,7 +20,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:green;
+    color: green;
 }
 
 .welcomepage{
@@ -28,6 +28,19 @@ nav ul li a:hover{
     text-align: center;
     color: white;
     font-size: x-large;
+}
+
+.welcomepage a{
+    color: green;
+    text-decoration: none;
+}
+
+#intro{
+    width: 50%;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .socialmedia{
@@ -41,8 +54,12 @@ nav ul li a:hover{
     padding-left: 20px;
 }
 
-
-
-
+.footer{
+    color: white;
+    padding-bottom: 0;
+    padding-top: 20%;
+    margin-bottom: 0;
+    text-align: center;
+}
 
 
