@@ -38,6 +38,18 @@ nav ul li a:hover{
     padding-right: 10%;
 }
 
+/** .design{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.design a{
+    color: green;
+} **/
+
 .researchpaper{
     padding-top: 40px;
     text-align: center;
@@ -71,7 +83,7 @@ nav ul li a:hover{
     font-size: larger;
 }
 
-.programming{
+.toolsandtech{
     padding-top: 40px;
     text-align: center;
     color: white;
