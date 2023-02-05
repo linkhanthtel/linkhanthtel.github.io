@@ -33,14 +33,7 @@ nav ul li a:hover{
 .welcomepage a{
     color: green;
     text-decoration: none;
-}
-
-#intro{
-    width: 50%;
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    font-size: large;
 }
 
 .socialmedia{
@@ -61,5 +54,4 @@ nav ul li a:hover{
     margin-bottom: 0;
     text-align: center;
 }
-
 
