@@ -1,5 +1,5 @@
 * {
-    background: fixed;
+    background: scroll;
     background-color: #02012e;
 }
 
@@ -49,4 +49,12 @@ button:hover{
     background-color: yellow;
     color: #02012e;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    color: white;
+    padding-bottom: 0;
+    padding-top: 40%;
+    margin-bottom: 0;
+    text-align: center;
 }
