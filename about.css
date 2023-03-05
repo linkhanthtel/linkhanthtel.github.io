@@ -49,6 +49,7 @@ nav ul li a:hover{
 
 .researchpaper{
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     color: white;
     font-size: larger;
@@ -57,7 +58,7 @@ nav ul li a:hover{
 .researchpaper p{
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-top: 20px;
     justify-content: center;
 }
