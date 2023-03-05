@@ -1,11 +1,20 @@
 * {
-    background: scroll;
-    background-color: #01011a;
+    background: fixed;
+    background-image: radial-gradient(rgb(5, 0, 39),rgb(18, 3, 46));
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
 nav ul{
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
     list-style-type: none;
     float: right;
     padding: 20px;
+    border-bottom: 2px solid black;
 }
 
 nav ul li{
@@ -15,6 +24,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-size: large;
     text-decoration: none;
     color: white;
 }
@@ -36,11 +46,16 @@ nav ul li a:hover{
     font-size: large;
 }
 
+.welcomepage a:hover{
+    color: green;
+}
+
 .socialmedia{
     display: flex;
     text-align: center;
     justify-content: center;
     padding: 20px;
+    padding-bottom: 100px;
 }
 
 .icon{
@@ -60,6 +75,10 @@ nav ul li a:hover{
     padding-top: 20px;
     max-width: fit-content;
     width: 80%;
+}
+
+.projects p{
+    padding: 10px;
 }
 
 .projects a{
