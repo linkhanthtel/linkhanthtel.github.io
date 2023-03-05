@@ -1,13 +1,19 @@
 * {
     background: fixed;
-    background-color: #01011a;
+    background-image: radial-gradient(rgb(5, 0, 39),rgb(18, 3, 46));
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-
 nav ul{
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
     list-style-type: none;
     float: right;
     padding: 20px;
+    border-bottom: 2px solid black;
 }
 
 nav ul li{
@@ -17,6 +23,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-size: large;
     text-decoration: none;
     color: white;
 }
@@ -29,38 +36,30 @@ nav ul li a:hover{
     padding-top: 100px;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
 
 .about p{
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
 }
-
-/** .design{
-    padding-top: 40px;
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-}
-
-.design a{
-    color: green;
-} **/
 
 .researchpaper{
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
 
 .researchpaper p{
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
 }
 
 .researchpaper a{
@@ -71,33 +70,60 @@ nav ul li a:hover{
     padding-top: 40px;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+
+.education p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
 }
 
 .softskills{
     padding-top: 40px;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+
+.softskills p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
 }
 
 .toolsandtech{
     padding-top: 40px;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+
+.toolsandtech p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
 }
 
 .language{
     padding-top: 40px;
-    padding-bottom: 40px;
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
+    color: white;
     font-size: larger;
+}
+
+.language p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
 }
 
 .footer{
