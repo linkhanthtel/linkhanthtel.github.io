@@ -44,8 +44,7 @@ nav ul li a:hover{
     padding-right: 10%;
     padding-bottom: 50px;
     padding-top: 20px;
-    justify-content: center;
-    text-align: justify;
+    text-align: left;
 }
 
 .researchpaper{
@@ -61,8 +60,7 @@ nav ul li a:hover{
     padding-right: 10%;
     padding-bottom: 10px;
     padding-top: 20px;
-    justify-content: center;
-    text-align: justify;
+    text-align: left;
 }
 
 .researchpaper a{
@@ -127,6 +125,21 @@ nav ul li a:hover{
     padding-bottom: 50px;
     padding-top: 20px;
     justify-content: center;
+}
+
+.volunteer{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.volunteer ul{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .footer{
