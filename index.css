@@ -44,17 +44,18 @@ nav ul li a:hover{
 
 .welcomepage h1{
     animation-name: nameanimation;
-    animation-duration: 5s;
+    animation-duration: 10s;
 }
 
 .welcomepage h5{
     animation-name: nameanimation;
-    animation-duration: 4s;
+    animation-duration: 10s;
 }
 
 @keyframes nameanimation {
-    0% {opacity: 0%;}
-    100% {opacity: 100%;}
+    0% {margin-left: 50px;}
+    50% {margin-right: 50px;}
+    100% {}
 }
 
 .welcomepage p{
@@ -63,8 +64,6 @@ nav ul li a:hover{
     padding-bottom: 10px;
     padding-top: 20px;
     text-align: center;
-    animation-name: nameanimation;
-    animation-duration: 5s;
 }
 
 .welcomepage a{
