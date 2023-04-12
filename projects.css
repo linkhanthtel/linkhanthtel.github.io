@@ -53,11 +53,18 @@ nav ul li a:hover{
 
 .projects p{
     padding: 10px;
+    text-align: center;
 }
 
 .projects a{
     color: green;
 }
+
+#websites{
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
 
 .footer{
     color: white;
