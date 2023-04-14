@@ -15,6 +15,7 @@ nav ul{
     padding: 20px;
     border-bottom: 2px solid yellow;
     background-color: #03031e;
+    z-index: 2;
 }
 
 nav ul li{
@@ -48,12 +49,26 @@ nav ul li a:hover{
 .projects img{
     padding-top: 20px;
     max-width: fit-content;
-    width: 80%;
+    width: 60%;
 }
 
 .projects p{
     padding: 10px;
     text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width:600px) {
+    .projects img{
+        max-width: fit-content;
+        width: 90%;
+    }
+    .projects p{
+        width: 90%;
+        margin: auto;
+    }
 }
 
 .projects a{
