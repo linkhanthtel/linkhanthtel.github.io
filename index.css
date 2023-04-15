@@ -88,6 +88,18 @@ nav ul li a:hover{
     padding-left: 20px;
 }
 
+.fa-brands:hover{
+    background-color: white;
+}
+
+.tools{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
 #contactinfo{
     border: 1px solid white;
     border-radius: 20px;
