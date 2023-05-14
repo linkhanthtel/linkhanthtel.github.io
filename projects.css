@@ -55,7 +55,7 @@ nav ul li a{
     margin: auto;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
     .projects img{
         max-width: fit-content;
         width: 90%;
