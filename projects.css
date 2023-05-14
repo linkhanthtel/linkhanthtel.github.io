@@ -55,7 +55,7 @@ nav ul li a{
     margin: auto;
 }
 
-@media (max-width:900px) {
+@media (max-width:600px) {
     .projects img{
         max-width: fit-content;
         width: 90%;
@@ -93,13 +93,6 @@ nav ul li a{
     box-shadow: 10px 10px 10px 10px rgb(18, 18, 109);
 }
 
-@media (max-width:600px) {
-    #design {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
-
 #project button{
     color: black;
     background-color: white;
@@ -127,6 +120,13 @@ nav ul li a{
 
 #design img:hover {
     box-shadow: 10px 10px 10px 10px rgb(18, 18, 109);
+}
+
+@media (max-width:600px) {
+    #design {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 
