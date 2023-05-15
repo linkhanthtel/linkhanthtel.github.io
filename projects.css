@@ -94,7 +94,6 @@ nav ul li a{
 }
 
 #project button{
-    color: black;
     background-color: white;
     padding: 10px;
     font-size: large;
@@ -107,8 +106,11 @@ nav ul li a{
     border: 0;
 }
 
-#project button:hover {
-    background-color: yellow;
+#project a{
+    text-decoration: none;
+    color: #03031e;
+    background-color: white;
+    padding: 0;
 }
 
 /* UI Design Projects */
