@@ -6,6 +6,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav ul{
     position: fixed;
     display: flex;
