@@ -35,6 +35,7 @@ nav ul li a{
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .about p{
@@ -45,12 +46,12 @@ nav ul li a{
     text-align: left;
 }
 
-
 .background{
     padding-top: 50px;
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .background p{
@@ -61,12 +62,65 @@ nav ul li a{
     text-align: left;
 }
 
+.experience{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    border-bottom: 1px solid #03031e;
+}
+
+.experience h3{
+    padding: 20px;
+}
+
+.experience p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.softskills{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    border-bottom: 1px solid #03031e;
+}
+
+.softskills p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.toolsandtech{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    border-bottom: 1px solid #03031e;
+}
+
+.toolsandtech p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
 .researchpaper{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .researchpaper p{
@@ -86,6 +140,7 @@ nav ul li a{
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .methodologies p{
@@ -101,42 +156,13 @@ nav ul li a{
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .education p{
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    justify-content: center;
-}
-
-.softskills{
-    padding-top: 40px;
-    text-align: center;
-    color: white;
-    font-size: larger;
-}
-
-.softskills p{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    justify-content: center;
-}
-
-.toolsandtech{
-    padding-top: 40px;
-    text-align: center;
-    color: white;
-    font-size: larger;
-}
-
-.toolsandtech p{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 20px;
     justify-content: center;
 }
@@ -146,12 +172,13 @@ nav ul li a{
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .language p{
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-top: 20px;
     justify-content: center;
 }
@@ -161,6 +188,7 @@ nav ul li a{
     text-align: center;
     color: white;
     font-size: larger;
+    border-bottom: 1px solid #03031e;
 }
 
 .volunteer p{
