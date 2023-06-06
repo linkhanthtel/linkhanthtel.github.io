@@ -73,6 +73,10 @@ nav ul li a{
     padding-left: 20px;
 }
 
+.icon:hover {
+    transform: scale(1.5,1.5);
+}
+
 .tools{
     display: flex;
     text-align: center;
@@ -121,7 +125,3 @@ button:hover{
     margin-bottom: 0;
     text-align: center;
 }
-
-
-
-
