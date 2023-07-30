@@ -1,9 +1,13 @@
 * {
-    background-color: #09084e;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    background-color: #010025;
+    scroll-behavior: smooth;
 }
 
 nav ul{
@@ -14,20 +18,19 @@ nav ul{
     margin-top: 0;
     list-style-type: none;
     padding: 20px;
-    background-color: #03031e;
+    background-color: rgb(9, 0, 30);
+    border-bottom: 1px solid white;
 }
 
 nav ul li{
     padding-left: 40px;
     padding-right: 7px;
-    background-color: #03031e;
 }
 
 nav ul li a{
     font-size: large;
     text-decoration: none;
     color: white;
-    background-color: #03031e;
 }
 
 .about{
