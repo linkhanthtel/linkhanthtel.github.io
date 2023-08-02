@@ -10,27 +10,69 @@ html {
     scroll-behavior: smooth;
 }
 
-nav ul{
-    position: fixed;
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    margin-top: 0;
-    list-style-type: none;
-    padding: 20px;
+nav {
     background-color: rgb(9, 0, 30);
-    border-bottom: 1px solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
 }
 
-nav ul li{
-    padding-left: 40px;
-    padding-right: 7px;
+nav #navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-nav ul li a{
-    font-size: large;
+nav #navigation a {
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav #dropdownmenu {
+    display: none;
+}
+
+nav #dropdown {
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    width: 50%;
+    height: 40%;
+    display: none;
+    background-color: #02012e;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav #dropdown a {
+    padding-top: 40px;
     text-decoration: none;
     color: white;
+}
+
+nav #lang a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:600px) {
+    nav #navigation {
+        display: none;
+    }
+    nav #lang {
+        display: none;
+    }
+    nav #dropdownmenu {
+        display: grid;
+    }
+    nav #dropdown {
+        display: flex;
+    }
 }
 
 .about{
