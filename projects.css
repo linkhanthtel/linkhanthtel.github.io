@@ -39,13 +39,12 @@ nav #dropdownmenu {
 
 nav #dropdown {
     position: absolute;
-    left: 40%;
+    left: 50%;
     margin-top: 50px;
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 40%;
     display: none;
     background-color: #02012e;
-    border: 1px solid white;
     flex-direction: column;
     align-items: center;
 }
@@ -136,7 +135,7 @@ nav #lang a {
 }
 
 #websites #project:hover {
-    box-shadow: 10px 10px 10px 10px rgb(18, 18, 109);
+    box-shadow: 3px 3px 3px 3px rgb(18, 18, 109);
 }
 
 #project button{
@@ -168,7 +167,7 @@ nav #lang a {
 
 #design img:hover {
     transform: scale(1.2,1.2);
-    box-shadow: 10px 10px 10px 10px rgb(18, 18, 109);
+    box-shadow: 3px 3px 3px 3px rgb(18, 18, 109);
 }
 
 @media (max-width:600px) {
@@ -183,6 +182,6 @@ nav #lang a {
     color: white;
     padding-bottom: 0;
     padding-top: 25%;
-    margin-bottom: 0;
+    margin-bottom: 15;
     text-align: center;
 }
