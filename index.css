@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #010025;
+    background-color: white;
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -79,8 +79,8 @@ nav #lang a {
 .welcomepage{
     padding-top: 200px;
     text-align: center;
-    color: white;
     font-size: x-large;
+    color: rgb(2, 0, 40);
 }
 
 .welcomepage p{
@@ -92,17 +92,17 @@ nav #lang a {
 }
 
 .welcomepage a{
-    color: white;
+    color: rgb(2, 0, 40);
     padding: 10px;
-    border: 1px solid white;
+    border: 2px solid rgb(2, 0, 40);
     border-radius: 10px;
     text-decoration: none;
     font-size: large;
 }
 
 .welcomepage a:hover{
-    background-color: yellow;
-    color: black;
+    background-color: rgb(2, 0, 40);
+    color: white;
 }
 
 .socialmedia{
@@ -130,11 +130,11 @@ nav #lang a {
 }
 
 #contactinfo{
-    border: 1px solid white;
+    border: 1px solid rgb(2, 0, 40);
     border-radius: 20px;
     text-align: center;
     font-size: medium;
-    color: white;
+    color: rgb(2, 0, 40);
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -143,29 +143,30 @@ nav #lang a {
 }
 
 #contactinfo a {
-    color: yellow;
+    color: rgb(2, 0, 40);
 }
 
 button{
-    background-color: green;
-    color: white;
+    background-color: transparent;
+    color: rgb(2, 0, 40);
     padding: 15px;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 50px;
-    border: 0;
+    border: 1px solid rgb(2, 0, 40);
 }
 
 button:hover{
-    background-color: yellow;
-    color: #02012e;
+    background-color: rgb(2, 0, 40);
+    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .footer{
+    background-color: #02012e;
     color: white;
-    padding-bottom: 0;
-    padding-top: 25%;
-    margin-bottom: 15;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
     text-align: center;
 }
