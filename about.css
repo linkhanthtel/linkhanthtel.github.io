@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #010025;
+    background-color: white;
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -69,7 +69,7 @@ nav #lang a {
         display: none;
     }
     nav #dropdownmenu {
-        display: grid;
+        display: flex;
     }
     nav #dropdown {
         display: flex;
@@ -79,9 +79,9 @@ nav #lang a {
 .about{
     padding-top: 100px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .about p{
@@ -95,9 +95,9 @@ nav #lang a {
 .background{
     padding-top: 50px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .background p{
@@ -111,9 +111,9 @@ nav #lang a {
 .experience{
     padding-top: 50px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .experience h3{
@@ -131,9 +131,9 @@ nav #lang a {
 .softskills{
     padding-top: 40px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .softskills p{
@@ -147,9 +147,9 @@ nav #lang a {
 .toolsandtech{
     padding-top: 40px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .toolsandtech p{
@@ -164,9 +164,9 @@ nav #lang a {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .researchpaper p{
@@ -178,15 +178,15 @@ nav #lang a {
 }
 
 .researchpaper a{
-    color: green;
+    color: rgb(2, 0 ,40);
 }
 
 .methodologies{
     padding-top: 40px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .methodologies p{
@@ -200,9 +200,9 @@ nav #lang a {
 .education{
     padding-top: 40px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .education p{
@@ -216,9 +216,9 @@ nav #lang a {
 .language{
     padding-top: 40px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .language p{
@@ -232,9 +232,9 @@ nav #lang a {
 .volunteer{
     padding-top: 40px;
     text-align: center;
-    color: white;
+    color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid #03031e;
+    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .volunteer p{
@@ -246,17 +246,14 @@ nav #lang a {
 }
 
 .volunteer a{
-    color: green;
-}
-
-.volunteer a:hover{
-    color: yellow;
+    color: rgb(2, 0 ,40);
 }
 
 .footer{
+    background-color: #02012e;
     color: white;
-    padding-bottom: 0;
-    padding-top: 10%;
-    margin-bottom: 15;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
     text-align: center;
 }
