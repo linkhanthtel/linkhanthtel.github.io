@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #010025;
+    background-color: white;
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -39,12 +39,13 @@ nav #dropdownmenu {
 
 nav #dropdown {
     position: absolute;
-    left: 50%;
+    left: 40%;
     margin-top: 50px;
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     display: none;
     background-color: #02012e;
+    border: 1px solid white;
     flex-direction: column;
     align-items: center;
 }
@@ -68,7 +69,7 @@ nav #lang a {
         display: none;
     }
     nav #dropdownmenu {
-        display: grid;
+        display: flex;
     }
     nav #dropdown {
         display: flex;
@@ -78,7 +79,7 @@ nav #lang a {
 /* Websites Project */
 
 .projects {
-    color: white;
+    color: rgb(2,0,40);
     text-align: center;
     padding-top: 100px;
     padding-left: 10px;
@@ -111,12 +112,8 @@ nav #lang a {
     }
 }
 
-.projects a{
-    color: green;
-}
-
 #websites{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(2,0,40);
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,7 +127,7 @@ nav #lang a {
 }
 
 #websites #project {
-    border: 1px solid white;
+    border: 1px solid rgb(2,0,40);
     margin-bottom: 10px;
 }
 
@@ -139,7 +136,7 @@ nav #lang a {
 }
 
 #project button{
-    background-color: white;
+    background-color: rgb(2,0,40);
     padding: 10px;
     font-size: large;
     text-align: center;
@@ -153,8 +150,7 @@ nav #lang a {
 
 #project a{
     text-decoration: none;
-    color: #03031e;
-    background-color: white;
+    color: white;
     padding: 0;
 }
 
@@ -165,8 +161,14 @@ nav #lang a {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+#design img {
+    border: 1px solid rgb(2,0,40);
+    margin: 20px;
+    padding-top: 0;
+    height: 300px;
+}
+
 #design img:hover {
-    transform: scale(1.2,1.2);
     box-shadow: 3px 3px 3px 3px rgb(18, 18, 109);
 }
 
@@ -175,13 +177,17 @@ nav #lang a {
         display: grid;
         grid-template-columns: 1fr;
     }
+    #design img{
+        height: 250px;
+    }
 }
 
 
 .footer{
+    background-color: #02012e;
     color: white;
-    padding-bottom: 0;
-    padding-top: 25%;
-    margin-bottom: 15;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
     text-align: center;
 }
