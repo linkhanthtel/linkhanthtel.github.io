@@ -91,6 +91,16 @@ nav #lang a {
     text-align: center;
 }
 
+@media (max-width:600px) {
+    .welcomepage p{
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+        word-wrap: normal;
+        text-align: justify;
+    }
+}
+
 .welcomepage a{
     color: rgb(2, 0, 40);
     padding: 10px;
