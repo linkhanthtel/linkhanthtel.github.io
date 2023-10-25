@@ -92,6 +92,7 @@ nav #lang a {
     padding-top: 20px;
     max-width: fit-content;
     width: 90%;
+    border-bottom: 2px solid #02012e;
 }
 
 .projects p{
