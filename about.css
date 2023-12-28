@@ -215,6 +215,7 @@ nav #lang a {
 
 .language{
     padding-top: 40px;
+    padding-bottom: 30px;
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
@@ -224,7 +225,6 @@ nav #lang a {
 .language p{
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10px;
     padding-top: 20px;
     justify-content: center;
 }
@@ -240,13 +240,56 @@ nav #lang a {
 .volunteer p{
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-top: 20px;
     text-align: center;
 }
 
 .volunteer a{
     color: rgb(2, 0 ,40);
+}
+
+@media (max-width: 600px) {
+    .about p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .background p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .experience p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .softskills p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .toolsandtech p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .researchpaper p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .methodologies p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .education p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .language p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .volunteer p{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
 
 .footer{
