@@ -57,11 +57,6 @@ nav #dropdown a {
     color: white;
 }
 
-nav #lang a {
-    color: white;
-    text-decoration: none;
-}
-
 @media (max-width:600px) {
     nav #navigation {
         display: none;
