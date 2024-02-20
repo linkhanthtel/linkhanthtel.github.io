@@ -25,6 +25,7 @@ nav #navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav #navigation a {
