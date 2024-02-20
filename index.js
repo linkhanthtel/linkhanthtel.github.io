@@ -6,10 +6,6 @@ $("#dropdownmenu").click(function() {
     $("#dropdown").fadeToggle();
 })
 
-$('#lang').click(function() {
-    alert("Burmese version is not available yet")
-})
-
 // document.getElementById('submit').onclick = function() {
 //     const nom = document.getElementById('name').value;
 //     document.getElementById('contactinfo').innerHTML = `Dear ${nom} ! <br><br> Thank you for your message! I will get back to you soon!`;

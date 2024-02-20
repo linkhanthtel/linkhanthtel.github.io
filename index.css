@@ -12,6 +12,7 @@ html {
 
 nav {
     background-color: rgb(9, 0, 30);
+    filter: drop-shadow(10px 10px 10px gray);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -39,13 +40,13 @@ nav #dropdownmenu {
 
 nav #dropdown {
     position: absolute;
-    left: 40%;
+    left: 55%;
     margin-top: 50px;
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
     display: none;
     background-color: #02012e;
-    border: 1px solid white;
+    border: 1px solid blue;
     flex-direction: column;
     align-items: center;
 }
@@ -152,8 +153,21 @@ nav #lang a {
     margin-right: 12%;
 }
 
-#contactinfo a {
+@media (max-width: 600px) {
+    #contactinfo {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+#contactinfo #submit {
+    background-color: transparent;
     color: rgb(2, 0, 40);
+    padding: 15px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 0, 40);
 }
 
 button{
