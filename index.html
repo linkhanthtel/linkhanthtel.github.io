@@ -3,39 +3,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="about.css">
     <script src="https://kit.fontawesome.com/9da769037d.js" crossorigin="anonymous"></script>
     <title>Lin Khant Htel</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-              publicKey: "h9izG2QFTBr4pRz1U",
-            });
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm('service_6xkbirh', 'template_9lxe4h6', this)
-                    .then(() => {
-                        console.log('SUCCESS!');
-                        event.target.reset();
-                        alert("Your message has been sent!")
-                    }, (error) => {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
 </head>
 <body>
     <nav>
-        <div id="logo" style="font-size: larger;padding-top: 1px;">
+        <div id="logo" style="font-size: larger;padding-top: 5px;">
             <p>LKH</p>
         </div>
         <div id="navigation">
@@ -47,7 +22,7 @@
             <a href="mailto:linkhanthtel@icloud.com"><i class="fa-regular fa-envelope" style="color: white;font-size: xx-large;"></i></a>
         </div>
         <div id="dropdownmenu">
-            <i class="fa-solid fa-bars" style="font-size: large;border: 1px solid white; padding: 10px"></i>
+            <i class="fa-solid fa-bars" style="font-size: medium;border: 1px solid white; padding: 10px"></i>
         </div>
         <div id="dropdown" style="display: none;">
             <a href="index.html">Home</a>
@@ -55,52 +30,68 @@
             <a href="projects.html">Projects</a>
         </div>
     </nav>
-
-    <div class="welcomepage">
-        <h1 style="padding-bottom: 20px;">Lin Khant Htel</h1>
-        <h5 style="padding-bottom: 20px;">Full Stack Developer</h5><br>
-        <p>A highly motivated web developer with a keen interest in leveraging modern frameworks and libraries to create innovative and efficient web applications and software solutions. Possesses a deep passion for staying abreast of cutting-edge technologies within the field, ensuring the implementation of the latest advancements in projects.</p><br><br>
-        <a href="lin.pdf" download="CV_Lin Khant Htel">Download CV</a>
-    </div><br><br>
-
-    <div class="socialmedia">
-        <div class="icon"><a href="https://www.facebook.com/lin.htel"><i class="fa-brands fa-square-facebook" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-        <div class="icon"><a href="https://www.instagram.com/lk7nv/?next=%2F"><i class="fa-brands fa-square-instagram" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-        <div class="icon"><a href="https://github.com/linkhanthtel"><i class="fa-brands fa-github" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-        <div class="icon"><a href="https://www.linkedin.com/in/linkhanthtel/"><i class="fa-brands fa-linkedin" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-        <!-- <div class="icon"><a href="https://twitter.com/lk7_navy"><i class="fa-brands fa-twitter" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-        <div class="icon"><a href="https://www.youtube.com/channel/UCzwp7H1ZoWgq8KH26rcGdlg"><i class="fa-brands fa-square-youtube" style="color: yellowgreen;"></i></a></div> -->
-        <div class="icon"><a href="https://www.behance.net/linkhanthtel"><i class="fa-brands fa-square-behance" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-    </div><br><br>
-
-    <div class="mytools">
-        <h1 style="text-align: center;color: rgb(2, 0, 40);">Tools and Technologies</h1><br><br>
-        <div class="tools">
-            <div class="icon"><i class="fa-brands fa-html5" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-            <div class="icon"><i class="fa-brands fa-css3-alt" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-            <div class="icon"><i class="fa-brands fa-js" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-            <div class="icon"><i class="fa-brands fa-react" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-            <div class="icon"><i class="fa-brands fa-php" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-            <div class="icon"><i class="fa-brands fa-python" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-            <div class="icon"><i class="fa-brands fa-figma" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
-        </div>
+    
+    <div class="about">
+        <h1>About</h1>
+        <p>I am a passionate and driven individual who is eager to learn and grow in the field of website and software development. I am a detail-oriented and creative individual who is passionate about building dynamic and user-friendly websites that meet the needs of clients and end-users. I have a strong foundation in programming languages and I am constantly seeking out new technologies and techniques to enhance my skills and knowledge. I have strong understanding in HTML, CSS, Tailwind CSS, JavaScript, React JS, Node JS and MySQL.<button id="toggle" style="background-color: transparent; color: rgb(2,0,40); border: none;font-size: larger;">⌵</button><br><span id="aboutmore" style="display: none;">I am excited to continue to build my skills and knowledge in web development, and to contribute to projects that make a positive impact. I am a strong learner, a collaborative team player, and a problem-solver, and I am committed to delivering high-quality website and software solutions that meet the needs of end-users. 
+        I'm also familiar with web performance optimization techniques, responsive design principles, and other best practices for creating websites that are fast, efficient, and user-friendly. As a web developer, I work closely with other developers, designers, and stakeholders to ensure that our projects are successful and meet the needs of our clients or users. I'm constantly learning and growing to stay up-to-date with the latest developments in web technology. </span>
     </div>
 
-    <div id="contactinfo">
-        <form id="contact-form">
-            <h1 style="padding-bottom: 20px;">Contact</h1>
-            <input type="hidden" name="contact_number">
-            <input type="text" name="user_name" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Name"><br><br>
-            <input type="email" name="user_email" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Email"><br><br>
-            <textarea name="message" cols="38" rows="10" style="background-color: transparent;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Your Message"></textarea><br><br>
-            <input type="submit" id="submit" value="Send">
-        </form>
+    <div class="background">
+        <h1>Background</h1>
+        <p>My educational background includes a Bachelor's degree in Anthropology, where I gained a broad understanding of the field through coursework in areas such as cultural anthropology, linguistic anthropology, and archaeology. <button id="toggle2" style="background-color: transparent; color: rgb(2,0,40); border: none;font-size: larger;">⌵</button><span id="backgroundmore" style="display: none;"> <br> During my studies, I also had the opportunity to participate in fieldwork, conducting ethnographic research on a community of indegenious people in my country. As an anthropology student, I am a curious and analytical individual who is passionate about understanding human behavior, culture, and society. I also have a deep respect for diversity and a commitment to cross-cultural understanding, and I do believe that anthropology has the power to help us address some of the most pressing social and environmental challenges of our time.
+            
+        Coming from Anthropology background, I have natural energy and enthusiasm for what I do. People mostly enjoy being with me and I enjoy the company of others. I get personal gratification from being sought after by others. I am trusted by those who know me to always do the right thing and put the needs of others before my own. I am modest about my achievements and feel that rewards come to those who earn them rather than based on any entitlement. Change is something that appeals to me. I welcome the creative work and appreciate the exposure to new ideas. I have a high level of curiosity, and I am open to new experiences. I am usually diligent and disciplined, and I strive to deliver quality work in most situation. I am usually patient and tolerated. I probably hold back from judging people until their point of view has been heard and understood. Others would describe me as cooperative and even-tempered. I plan activities and like an ordered, tidy environment. Decisions are usually considered carefully and thoroughly. I am being likely to enjoy being the centre of attention, and I am happier being with people I know and in small groups. I often prefer my own company and can sometimes feel uncomfortable if forced to spend time with lots of people for extended period. I sometimes prefer to listen rather than talk. </span>
+        </p>
+    </div>
+
+    <div class="softskills">
+        <h1>Soft Skills</h1>
+        <p>Problem Solving | Self-motivated | Adaptability | Attention to Detail | Communication | Teamwork and Collaboration | Time Management | Creativity | Networking | Customer Focus | Systematic | Ethusiastic </p>
+    </div>
+
+    <div class="toolsandtech">
+        <h1>Tools and Technologies</h1>
+        <p>HTML | CSS | Tailwind CSS | JavaScript | Bootstrap | jQuery | Vue.js | React.js | Node.js | Express.js | MongoDB | Next.js | React Native | Jest | Webpack | Babel | Git | GitHub | PHP | Python | Flask | MySQL | Figma | Adobe XD </p>
+    </div>
+
+    <!-- <div class="researchpaper">
+        <h1>Publication</h1>
+        <p>My research about the natural disasters in Myanmar focused mainly on Yangon which is the biggest and the most commercial city. I mentioned how people withstand disasters and how the government, non-governmental organizations, and many charity organizations support the affected areas and localities. Preparing to withstand natural disasters in advance is much better before the localities encountered the disasters. In my research, I discussed some giant disasters, flooding, and earthquakes that happened in Myanmar in the last decade. I described how people in Yangon withstand the disasters and how people survive in the locations susceptible to natural disasters.</p><br>
+        <a href="https://register.burmaconference.com/pdf_proceeding.php?abs_id=41">See Publication</a>
+    </div>
+
+    <div class="methodologies">
+        <h1>Methodologies</h1>
+        <p>Participant Observation | Literature Reviews | Communication | Project Management | Problem Solving | Data Collection | Data Analysis | Ethnics | Focus Group Discussion</p>
+    </div> -->
+
+    <!-- <div class="education">
+        <h1>Education</h1>
+        <p>B.A(Hons) in Anthropology - University of Yangon (Myanmar)</p>
+        <p>Full Scholarship Exchange Student - Tsinghua University (China)</p>
+        <p>Full Scholarship Exchange Student - Chulalongkorn University (Thailand)</p>
+    </div> -->
+
+    <div class="language">
+        <h1>Languages</h1>
+        <p>Burmese - Native</p>
+        <p>English - Professional</p>
+        <p>Chinese - Professional</p>
+        <p>French - Conversational</p>
+    </div>
+
+    <div class="volunteer">
+        <h1>Volunteering Experiences</h1>
+            <p>Virtual Web Researcher - <a href="https://2ndchance4pets.org">2nd Chance 4 Pets</a></p>
+            <p>Ambassador - <a href="https://iymc.info/en/linhtel">International Youth Math Challenge</a></p>
+            <p>Ambassador - <a href="https://iaac.space/en/linhtel">International Astronomy and Astrophysics Competition</a></p>
     </div>
 
     <div class="footer">
         <p>Copyright © 2024 | Lin Khant Htel | All rights reserved</p>
     </div>
 
-    <script src="index.js"></script>
+    <script src="about.js"></script>
 </body>
 </html>
