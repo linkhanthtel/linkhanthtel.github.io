@@ -50,6 +50,7 @@ nav #dropdown {
     border: 1px solid blue;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 nav #dropdown a {
@@ -103,6 +104,12 @@ nav #lang a {
     }
 }
 
+#hero {
+    background-image: url('./assets/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .welcomepage a{
     color: rgb(2, 0, 40);
     padding: 10px;
@@ -146,7 +153,6 @@ nav #lang a {
     border-radius: 20px;
     text-align: center;
     font-size: medium;
-    color: rgb(2, 0, 40);
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -159,6 +165,13 @@ nav #lang a {
         margin-left: 1%;
         margin-right: 1%;
     }
+}
+
+#tools {
+    background-image: url('./assets/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
 }
 
 #contactinfo #submit {
@@ -196,7 +209,6 @@ button:hover{
     background-color: #02012e;
     color: white;
     padding: 30px;
-    margin-top: 100px;
     margin-bottom: 0;
     text-align: center;
 }
