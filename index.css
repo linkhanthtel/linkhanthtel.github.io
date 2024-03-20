@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -50,7 +49,6 @@ nav #dropdown {
     border: 1px solid blue;
     flex-direction: column;
     align-items: center;
-    z-index: 1;
 }
 
 nav #dropdown a {
@@ -84,6 +82,8 @@ nav #lang a {
     text-align: center;
     font-size: x-large;
     color: rgb(2, 0, 40);
+    animation: myanimation;
+    animation-duration: 3s;
 }
 
 .welcomepage p{
@@ -105,9 +105,10 @@ nav #lang a {
 }
 
 #hero {
-    background-image: url('./assets/image3.jpg');
+    background-image: url('./assets/image1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 60px;
 }
 
 .welcomepage a{
@@ -130,6 +131,33 @@ nav #lang a {
     justify-content: center;
     padding: 20px;
     padding-bottom: 100px;
+}
+
+@keyframes myanimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#projectsection {
+    color: rgb(2,0,40);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+#projectsection img {
+    padding-top: 20px;
+    max-width: fit-content;
+    width: 400px;
+    border-bottom: 2px solid #02012e;
+}
+
+#project {
+    padding: 50px;
 }
 
 .icon{
