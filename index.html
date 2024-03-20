@@ -95,10 +95,10 @@
     <div id="contactinfo">
         <form id="contact-form">
             <h1 style="padding-bottom: 20px;">Contact</h1>
-            <input type="hidden" name="contact_number">
-            <input type="text" name="user_name" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;font-weight: bold;" placeholder="Name"><br><br>
-            <input type="email" name="user_email" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;font-weight: bold;" placeholder="Email"><br><br>
-            <textarea name="message" cols="38" rows="10" style="background-color: transparent;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;font-weight: bold;" placeholder="Your Message"></textarea><br><br>
+            <input required type="hidden" name="contact_number">
+            <input required type="text" name="user_name" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Name"><br><br>
+            <input required type="email" name="user_email" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Email"><br><br>
+            <textarea required name="message" cols="30" rows="10" style="background-color: transparent;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Your Message"></textarea><br><br>
             <input type="submit" id="submit" value="Send">
         </form>
     </div>
