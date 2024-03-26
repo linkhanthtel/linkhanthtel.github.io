@@ -16,6 +16,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     color: rgb(255, 255, 255);
     padding: 20px;
 }
@@ -51,15 +52,15 @@ nav #dropdown {
     align-items: center;
 }
 
+nav #logo img{
+    width: 40px;
+    height: 40px;
+}
+
 nav #dropdown a {
     padding-top: 40px;
     text-decoration: none;
     color: white;
-}
-
-nav #lang a {
-    color: white;
-    text-decoration: none;
 }
 
 @media (max-width:600px) {
@@ -82,7 +83,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .about p{
@@ -98,7 +98,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .background p{
@@ -114,7 +113,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .experience h3{
@@ -134,7 +132,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .softskills p{
@@ -150,7 +147,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .toolsandtech p{
@@ -167,7 +163,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .researchpaper p{
@@ -187,7 +182,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .methodologies p{
@@ -203,7 +197,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .education p{
@@ -220,7 +213,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .language p{
@@ -235,7 +227,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .volunteer p{
