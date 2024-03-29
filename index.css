@@ -82,7 +82,15 @@ nav #dropdown a {
     text-align: center;
     font-size: x-large;
     color: rgb(2, 0, 40);
-    animation: myanimation;
+}
+
+.welcomepage h1{
+    animation: animate_left_right;
+    animation-duration: 3s;
+}
+
+.welcomepage h5{
+    animation: animate_right_left;
     animation-duration: 3s;
 }
 
@@ -92,6 +100,8 @@ nav #dropdown a {
     padding-bottom: 10px;
     padding-top: 20px;
     text-align: center;
+    animation: animate_bottom_top;
+    animation-duration: 4s;
 }
 
 @media (max-width:600px) {
@@ -133,8 +143,18 @@ nav #dropdown a {
     padding-bottom: 100px;
 }
 
-@keyframes myanimation {
-    from {opacity: 0;}
+@keyframes animate_left_right {
+    from {opacity: 0;padding-left: 10%;}
+    to {opacity: 1;}
+}
+
+@keyframes animate_right_left {
+    from {opacity: 0;padding-right: 10%;}
+    to {opacity: 1;}
+}
+
+@keyframes animate_bottom_top {
+    from {opacity: 0;padding-top: 10%;}
     to {opacity: 1;}
 }
 
