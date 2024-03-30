@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -17,14 +16,17 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 15px;
+    position: fixed;
 }
 
 nav #navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav #navigation a {
@@ -41,25 +43,25 @@ nav #dropdownmenu {
 nav #dropdown {
     position: absolute;
     left: 55%;
-    margin-top: 50px;
-    width: 40%;
-    height: 40%;
+    margin-top: 470px;
+    width: 200px;
+    height: 400px;
     display: none;
     background-color: #02012e;
-    border: 1px solid blue;
     flex-direction: column;
     align-items: center;
+    font-size: large;
+}
+
+nav #logo img{
+    width: 40px;
+    height: 40px;
 }
 
 nav #dropdown a {
     padding-top: 40px;
     text-decoration: none;
     color: white;
-}
-
-nav #lang a {
-    color: white;
-    text-decoration: none;
 }
 
 @media (max-width:600px) {
@@ -82,7 +84,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .about p{
@@ -98,7 +99,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .background p{
@@ -114,7 +114,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .experience h3{
@@ -134,7 +133,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .softskills p{
@@ -150,7 +148,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .toolsandtech p{
@@ -167,7 +164,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .researchpaper p{
@@ -187,7 +183,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .methodologies p{
@@ -203,7 +198,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .education p{
@@ -220,7 +214,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .language p{
@@ -235,7 +228,6 @@ nav #lang a {
     text-align: center;
     color: rgb(2, 0 ,40);
     font-size: larger;
-    border-bottom: 1px solid rgb(2, 0 ,40);
 }
 
 .volunteer p{

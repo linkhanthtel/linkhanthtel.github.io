@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9da769037d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <title>Lin Khant Htel</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -34,17 +35,18 @@
     </script>
 </head>
 <body>
+    <!-- Navbar -->
     <nav>
-        <div id="logo" style="font-size: larger;padding-top: 1px;">
-            <p>LKH</p>
+        <div id="logo" style="font-size: larger;padding-top: 5px;">
+            <img src="./assets/logo.png" alt="Logo">
         </div>
         <div id="navigation">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
         </div>
-        <div id="lang">
-            
+        <div>
+            <a href="mailto:linkhanthtel@icloud.com"><i class="fa-regular fa-envelope" style="color: white;font-size: xx-large;"></i></a>
         </div>
         <div id="dropdownmenu">
             <i class="fa-solid fa-bars" style="font-size: large;border: 1px solid white; padding: 10px"></i>
@@ -56,13 +58,16 @@
         </div>
     </nav>
 
+    <!-- Hero -->
+    <div id="hero">
     <div class="welcomepage">
         <h1 style="padding-bottom: 20px;">Lin Khant Htel</h1>
         <h5 style="padding-bottom: 20px;">Full Stack Developer</h5><br>
-        <p>A highly motivated web developer with a keen interest in leveraging modern frameworks and libraries to create innovative and efficient web applications and software solutions. Possesses a deep passion for staying abreast of cutting-edge technologies within the field, ensuring the implementation of the latest advancements in projects.</p><br><br>
+        <p>A highly motivated full stack developer with a keen interest in leveraging modern frameworks and libraries to create innovative and efficient web applications and software solutions. Possesses a deep passion for staying abreast of cutting-edge technologies within the field, ensuring the implementation of the latest advancements in projects.</p><br><br>
         <a href="lin.pdf" download="CV_Lin Khant Htel">Download CV</a>
     </div><br><br>
 
+    <!-- Social Media -->
     <div class="socialmedia">
         <div class="icon"><a href="https://www.facebook.com/lin.htel"><i class="fa-brands fa-square-facebook" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
         <div class="icon"><a href="https://www.instagram.com/lk7nv/?next=%2F"><i class="fa-brands fa-square-instagram" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
@@ -71,30 +76,44 @@
         <!-- <div class="icon"><a href="https://twitter.com/lk7_navy"><i class="fa-brands fa-twitter" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
         <div class="icon"><a href="https://www.youtube.com/channel/UCzwp7H1ZoWgq8KH26rcGdlg"><i class="fa-brands fa-square-youtube" style="color: yellowgreen;"></i></a></div> -->
         <div class="icon"><a href="https://www.behance.net/linkhanthtel"><i class="fa-brands fa-square-behance" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></a></div>
-    </div><br><br>
+    </div>
+    </div>
 
+    <!-- Tools and Contact Section -->
+    <div id="tools">
     <div class="mytools">
-        <h1 style="text-align: center;color: rgb(2, 0, 40);">Tools and Technologies</h1><br><br>
+        <h1 style="text-align: center;color: rgb(2, 0, 40);padding-top: 50px;">Tools and Technologies</h1><br><br>
         <div class="tools">
             <div class="icon"><i class="fa-brands fa-html5" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
             <div class="icon"><i class="fa-brands fa-css3-alt" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
             <div class="icon"><i class="fa-brands fa-js" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
             <div class="icon"><i class="fa-brands fa-react" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
+            <div class="icon"><i class="fa-brands fa-node" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
+            <div class="icon"><i class="fa-brands fa-git-alt" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
+        </div>
+        <div class="tools">
+            <div class="icon"><i class="fa-brands fa-square-github" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
+            <div class="icon"><i class="fa-solid fa-database" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
+            <div class="icon"><i class="fa-brands fa-vuejs" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
             <div class="icon"><i class="fa-brands fa-php" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
             <div class="icon"><i class="fa-brands fa-python" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
             <div class="icon"><i class="fa-brands fa-figma" style="color: rgb(2, 0, 40);font-size: xx-large;"></i></div>
         </div>
     </div>
+    </div>
 
-    <div id="contactinfo">
-        <form id="contact-form">
-            <h1 style="padding-bottom: 20px;">Contact</h1>
-            <input type="hidden" name="contact_number">
-            <input type="text" name="user_name" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Name"><br><br>
-            <input type="email" name="user_email" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Email"><br><br>
-            <textarea name="message" cols="38" rows="10" style="background-color: transparent;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Your Message"></textarea><br><br>
-            <input type="submit" id="submit" value="Send">
-        </form>
+        <!-- Contact Section -->
+    <div id="contact">
+        <div id="contactinfo">
+            <form id="contact-form">
+                <h1 style="padding-bottom: 20px;">Contact</h1>
+                <input required type="hidden" name="contact_number">
+                <input required type="text" name="user_name" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Name"><br><br>
+                <input required type="email" name="user_email" style="background-color: transparent;width: 300px;height: 40px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Email"><br><br>
+                <textarea required name="message" style="background-color: transparent;width: 300px;height: 150px;padding: 10px;border-radius: 10px;border: 1px solid black;font-size: large;" placeholder="Your Message"></textarea><br><br>
+                <input type="submit" id="submit" value="Send">
+            </form>
+        </div>
     </div>
 
     <div class="footer">
