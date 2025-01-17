@@ -1,6 +1,6 @@
-# 🚀 Lin Khant Htel's Website
+# Personal Website 1.0
 
-Welcome to the repository of my personal portfolio website! This project showcases my skills, projects, and journey as a web developer.
+Welcome to the repository of my personal portfolio website! This site is only to archive my first step into IT industry. Kindly check https://linkhanthtel.com for more.
 
 ## 🌟 Live Demos
 
@@ -12,39 +12,13 @@ Welcome to the repository of my personal portfolio website! This project showcas
 - HTML5
 - CSS3
 - JavaScript
-- React JS
-- Framer Motion
-- Vercel, V0
 
 ## ✨ Features
 
-### Version 1
 - Responsive design
 - Project showcase
 - About me section
 - Contact information
-
-### Version 2 (Additional features)
-- Interactive UI elements
-- Improved navigation
-- Skill section
-- Animation and effects
-
-## 📁 Project Structure
-
-```
-portfolio-website/
-│
-├── index.html
-├── css/
-│   ├── style.css
-│   └── responsive.css
-├── js/
-│   └── main.js
-├── images/
-│   └── [image files]
-└── README.md
-```
 
 ## 🤝 Contributing
 
@@ -53,11 +27,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 ## 📬 Contact
 
 Lin Khant Htel - linkhanthtel@icloud.com
-
-## 🙏 Acknowledgements
-
-- V0
-
----
 
 ⭐️ From [Lin](https://github.com/linkhanthtel)
