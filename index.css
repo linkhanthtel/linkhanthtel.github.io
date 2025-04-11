@@ -15,6 +15,29 @@ html {
     scroll-behavior: smooth;
 }
 
+.version-banner {
+    background-color: #ffeb3b;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.version-banner a {
+    color: #1a73e8;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body {
+    margin-top: 60px; /* Add space for the fixed banner */
+}
+
 nav {
     background-color: rgb(9, 0, 30);
     filter: drop-shadow(10px 10px 10px gray);
