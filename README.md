@@ -4,8 +4,8 @@ Welcome to the repository of my personal portfolio website! This site is only to
 
 ## 🌟 Live Demos
 
-- **Version 1 (Basic):** [https://linkhanthtel.github.io/](https://linkhanthtel.github.io/)
-- **Version 2 (Enhanced):** [https://linkhanthtel.com](https://linkhanthtel.com)
+- **Version 1 (Current):** [https://linkhanthtel.github.io/](https://linkhanthtel.github.io/)
+- **Version 2 (Updated):** [https://linkhanthtel.com](https://linkhanthtel.com)
 
 ## 🛠️ Technologies Used
 
@@ -28,4 +28,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 
 Lin Khant Htel - linkhanthtel@icloud.com
 
-⭐️ From [Lin](https://github.com/linkhanthtel)
